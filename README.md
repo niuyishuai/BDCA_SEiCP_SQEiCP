@@ -46,7 +46,7 @@ x0 = rand(n,1);
 ```
 
 Here, we use Yalmip + Mosek to find a suitable parameter $\mu$ for converting the symmetric matrix $A$ into a positive definite matrix by solving the SDP: 
-$$\text{min} \left{\mu : A + \mu B \succeq 0\right}$$
+$$\text{min} \{\mu : A + \mu B \succeq 0\}$$
 
 * A simple example for solving LnP model using BDCA
 ```
