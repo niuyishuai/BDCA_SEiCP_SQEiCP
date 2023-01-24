@@ -16,7 +16,7 @@ Two SEiCP models (the Logarithmic model - LnP and the Quadratic model - QP) are 
 
 This toolbox depends on MOSEK for solving the convex subproblems of the QP model. The LnP model does not depend on any external solver.
 
-The compared optimization solvers are KNITRO, FILTERSD, and MATLAB FMINCON. Please make sure that you have installed the corresponding solvers for comparison.
+The compared optimization solvers are KNITRO, FILTERSD, and MATLAB FMINCON. Please make sure that you have installed the corresponding solvers on MATLAB for comparison.
 
 ## Citation
 
@@ -31,7 +31,7 @@ The compared optimization solvers are KNITRO, FILTERSD, and MATLAB FMINCON. Plea
 
 ## Samples
 
-* A simple example for generating a SEiCP is given by:
+* A simple example for generating an SEiCP is given by:
 ``` Matlab
 n=200;
 randbnd=[-1,1];
@@ -45,10 +45,10 @@ A = A + mu*B;
 x0 = rand(n,1);
 ```
 
-Here, we use Yalmip + Mosek to find a suitable parameter $\mu$ for converting the symmetric matrix $A$ into a positive definite matrix by solving the SDP: 
+Here, we use YALMIP + MOSEK to find a suitable parameter $\mu$ for converting the symmetric matrix $A$ into a positive definite matrix by solving the SDP: 
 $$\text{min}_{\mu} \lbrace \mu : A + \mu B \succeq 0\rbrace$$
 
-* A simple example for solving LnP model using BDCA
+* A simple example for solving the LnP model using BDCA
 ```
 % Create a dc function object
 dcf=dcfunc;
@@ -98,9 +98,9 @@ status.avgt
 See more test samples in the folder 'tests'.
 
 ## Available Dataset
-Two datasets of EiCP: RANDEICP, NEP. 
+Two datasets for EiCP: RANDEICP, NEP. 
 
-One dataset of QEiCP: RANDQEICP.
+One dataset for QEiCP: RANDQEICP.
 
 See `GEN_NEP.m`, `GEN_RANDEICP.m`, `GEN_RANDQEICP.m` to generate more datasets.
 
