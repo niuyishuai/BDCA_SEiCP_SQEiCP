@@ -5,7 +5,7 @@ This project is supported by the National Natural Science Foundation of China (G
 
 ## Instruction
 
-Run 'install.m' to install the toolbox on MATLAB.
+Run `install.m` to install the toolbox on MATLAB.
 
 This toolbox is developed based on the DCAM toolbox, see [here](https://github.com/niuyishuai/DCAM).
 
