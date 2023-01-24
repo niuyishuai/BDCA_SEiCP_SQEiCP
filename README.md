@@ -74,7 +74,7 @@ mydca.linesearch=1;
 mydca.linesearch_type='exact';
 mydca.model='LnP';
 
-% Solve model using BDCA
+% Solve the LnP model using BDCA
 status=mydca.optimize();
 
 % Access solution
