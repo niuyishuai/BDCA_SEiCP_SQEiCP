@@ -5,7 +5,7 @@ This project is supported by the National Natural Science Foundation of China (G
 
 ## Instruction
 
-Run 'install' to install the toolbox on MATLAB.
+Run 'install.m' to install the toolbox on MATLAB.
 
 This toolbox is developed based on the DCAM toolbox, see [here](https://github.com/niuyishuai/DCAM).
 
@@ -98,9 +98,9 @@ status.avgt
 See more test samples in the folder 'tests'.
 
 ## Available Dataset
-Two datasets for EiCP: RANDEICP, NEP. 
+Two datasets for EiCP: `RANDEICP`, `NEP`. 
 
-One dataset for QEiCP: RANDQEICP.
+One dataset for QEiCP: `RANDQEICP`.
 
 See `GEN_NEP.m`, `GEN_RANDEICP.m`, `GEN_RANDQEICP.m` to generate more datasets.
 
