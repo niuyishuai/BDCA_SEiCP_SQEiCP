@@ -31,7 +31,7 @@ The compared optimization solvers are KNITRO, FILTERSD, and MATLAB FMINCON. Plea
 
 ## Samples
 
-...* A simple example for generating a SEiCP is given by:
+* A simple example for generating a SEiCP is given by:
 ``` Matlab
 n=200;
 randbnd=[-1,1];
@@ -46,9 +46,9 @@ x0 = rand(n,1);
 ```
 
 Here, we use Yalmip + Mosek to find a suitable parameter $\mu$ for converting the symmetric matrix $A$ into a positive definite matrix by solving the SDP: 
-$$\text{min} {\mu : A + \mu B \succeq 0}$$
+$$\text{min} \left{\mu : A + \mu B \succeq 0\right}$$
 
-...* A simple example for solving LnP model using BDCA
+* A simple example for solving LnP model using BDCA
 ```
 % Create a dc function object
 dcf=dcfunc;
