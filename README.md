@@ -57,7 +57,7 @@ dcf.f=@(x,opt)fobj_eval_LnP(x,A,B,opt);
 % Create a dc problem object
 mydcp=dcp(dcf,[]);
 
-% Test BDCA solver
+% Create a dca object and set parametters
 mydca = dca(mydcp,x0);
 mydca.A=A;
 mydca.B=B;
