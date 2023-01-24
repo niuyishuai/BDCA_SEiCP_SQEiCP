@@ -21,7 +21,7 @@ The compared optimization solvers are KNITRO, FILTERSD, and MATLAB FMINCON. Plea
 ## Citation
 
 ```
-@Misc{DCAM,
+@Misc{niu2023BDCASEiCP,
 	title = {An Accelerated DC Programming Approach with Exact Line Search for The Symmetric Eigenvalue Complementarity Problem.},
 	author = {Yi-Shuai Niu},	
 	year = {2023},
