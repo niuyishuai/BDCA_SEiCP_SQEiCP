@@ -3,7 +3,7 @@ An accelerated DC Algorithm (BDCA) for solving Symmetric Eigenvalue Complementar
 
 This project is supported by the National Natural Science Foundation of China (Grant No: 11601327).
 
-## Instruction ##
+## Instruction
 
 Run 'install' to install the toolbox on MATLAB.
 
@@ -12,7 +12,7 @@ This toolbox is developed based on the DCAM toolbox, see [here](https://github.c
 Two SEiCP models (the Logarithmic model - LnP and the Quadratic model - QP) are considered. BDCA and DCA are implemented for solving these two models. See the article [here](https://arxiv.org/abs/2301.09098) for more details.
 
 
-### Dependencies ###
+## Dependencies
 
 This toolbox depends on MOSEK for solving the convex subproblems of the QP model. The LnP model does not depend on any external solver.
 
